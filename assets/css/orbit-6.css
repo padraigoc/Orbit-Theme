@@ -41,6 +41,11 @@ p {
   line-height: 1.5;
 }
 
+ul.skills {
+  padding: 5px;
+  margin-left: 5px;
+}
+
 .wrapper {
   background: #4B6A78;
   max-width: 960px;
@@ -256,10 +261,12 @@ p {
 
 .main-wrapper .project-title {
   font-size: 16px;
+  color: rgb(8, 108, 240);
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 5px;
 }
+
 
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
@@ -291,6 +298,12 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+
+.cert {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(8, 108, 240);
+  font-size: 14px;
 }
 
 .skillset .theme-progress-bar {
